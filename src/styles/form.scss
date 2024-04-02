@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+
+  box-shadow: 0 0 5px 1px #5a5a5a;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 50px auto 0;
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  input {
+    margin-bottom: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  label {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  button {
+    width: 75px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+}

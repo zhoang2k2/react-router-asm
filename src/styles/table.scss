@@ -1,0 +1,25 @@
+table {
+  width: 300px;
+  margin: 50px auto;
+  border: 1px solid #000;
+  text-align: center;
+  thead {
+    border: 1px solid #000;
+    tr {
+      td {
+        padding: 0 20px;
+        border: 1px solid #000;
+        padding: 10px 0;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        border: 1px solid #000;
+        padding: 10px 0;
+      }
+    }
+  }
+}

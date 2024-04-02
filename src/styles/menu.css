@@ -1,0 +1,1 @@
+nav{display:flex;justify-content:space-between;height:50px;padding:0 20px;background-color:#000}nav div{display:flex;gap:20px}nav div a{color:#fff;-webkit-text-decoration-line:none;text-decoration-line:none;line-height:50px;padding:0 10px}nav div a .active{background-color:#222730}nav div a:hover{background-color:#222730}
