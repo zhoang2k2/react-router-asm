@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-function Input({ title, type, value, onChange }) {
+function Input({ title, type, value, onChange, onBlur }) {
   return (
     <>
       <label htmlFor={title}>{title}:</label>
@@ -10,6 +10,7 @@ function Input({ title, type, value, onChange }) {
         placeholder={`Enter ${title}`}
         value={value}
         onChange={onChange}
+        onBlur={onBlur}
         required
       />
     </>
